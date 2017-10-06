@@ -15,8 +15,8 @@ class Company
     end
 
     def list_employees
-        for key, value, three in @employees
-            puts "#{key} the #{value} was hired on #{three} to work with #{@name}"
+        for emp_name, title, start_date in @employees
+            puts "#{emp_name} the #{title} was hired on #{start_date} to work with #{@name}"
         end
     end
 
